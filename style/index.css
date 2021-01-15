@@ -1,1 +1,168 @@
 /* Add CSS styling here */
+*{
+    box-sizing:border-box;
+	margin:0;
+    padding:0;
+    font-family: 'Permanent Marker', cursive;
+	font-family: 'Permanent Marker', cursive;
+}
+html{
+    border: 1px solid rgb(17, 22, 97);
+    margin: 1%;
+    height: 100vh;
+}
+section{
+    display:flex;
+    justify-content: center
+}
+.image{
+    background: url(https://wallpaperset.com/w/full/5/6/8/488629.jpg);
+    height:400px;
+    width:80%;
+    padding:10px;
+    /*border-radius:360px;*/
+    box-sizing:border-box;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.text p{
+  font-family:arial;
+  font-size:3rem;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+  
+}
+.text a{
+    display:flex;
+    font-family:arial;
+    font-size:1rem;
+    color: white;
+    justify-content:center;
+    align-items:center;
+    text-decoration: none;
+    padding:10%;
+    font-family: 'Permanent Marker', cursive;
+  }
+  .text a:hover{
+    background: black;
+    color: white;
+  }
+  .header{
+    display:flex;
+    font-family:arial;
+    font-size:1rem;
+    color: black;
+    flex-direction: row;
+    
+  }
+  .header nav{
+      display: flex;
+      justify-content: flex-end;
+      width:80%;
+      
+  }
+  nav a{
+    display:flex;
+    text-decoration: none;
+    width:80px;
+    justify-content:center;
+    align-items: center;
+    color: black;
+    font-size:1rem;
+    padding:5px;
+    border:1px solid black;
+  }
+  nav a:hover{
+      background: gray;
+      color: white;
+  }
+  .middle{
+    padding:20px;
+    box-sizing:border-box;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-around;
+    align-content:space-evenly;
+    flex-wrap:wrap;
+    
+  }
+  
+  .text1 a{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-decoration: none;
+    justify-content:center;
+    color: black;
+    font-size:1rem;
+  }
+  .text2 a{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-decoration: none;
+    justify-content:center;
+    color: black;
+    font-size:1rem;
+  }
+  .text3 a{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-decoration: none;
+    justify-content:center;
+    color: black;
+    font-size:1rem;
+  }
+  .text4 a{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-decoration: none;
+    justify-content:center;
+    color: black;
+    font-size:1rem;
+  }
+  .text5 a{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-decoration: none;
+    justify-content:center;
+    color: black;
+    font-size:1rem;
+  }
+  .text6 a{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-decoration: none;
+    justify-content:center;
+    color: black;
+    font-size:1rem;
+  }
+  .bottom{
+    background: cornflowerblue;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 100px;
+  }
+  .bottom .text a{
+    color: black;
+    font-size:1rem;
+    background:white;
+    padding:5px;
+    border:1px solid black;
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+  }
+  .bottom .text a:hover{
+    background: gray;
+    color: white;
+  }
+  
